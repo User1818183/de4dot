@@ -47,3 +47,6 @@ jobs:
         with:
           name: de4dot-netcoreapp3.1
           path: publish-netcoreapp3.1
+
+      - name: Download all workflow run artifacts
+      - uses: actions/download-artifact@v4
